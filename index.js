@@ -1,6 +1,6 @@
 
 // or  
-var recipes = {};
+
 // or
 // var recipes = new Object(); 
 // both are valid
