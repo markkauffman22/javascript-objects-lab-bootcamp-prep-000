@@ -11,7 +11,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return Object.assign(object, { [key]: value });
 }
 
-// Note below ... MUST USE bracket notation newObj[key] not newObj.key to get value to undefined
+// Note below ... MUST USE bracket notation newObj[key] not newObj.key as key is a passed in var, not a true string value.
 function deleteFromObjectByKey(object, key) {
   var newObj = Object.assign({}, object);
   delete newObj[key];
