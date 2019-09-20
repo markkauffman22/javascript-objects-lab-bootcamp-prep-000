@@ -1,4 +1,4 @@
-
+var recipes = new Object(); // or  
 var recipes = {};
 
 function updateObjectWithKeyAndValue(obj, key, value) {
