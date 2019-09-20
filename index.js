@@ -1,6 +1,8 @@
-var recipes = new Object(); 
+
 // or  
-// var recipes = {};
+var recipes = {};
+// or
+// var recipes = new Object(); 
 // both are valid
 
 function updateObjectWithKeyAndValue(obj, key, value) {
