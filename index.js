@@ -1,9 +1,7 @@
-
-// or  
-
+var recipes = {};
 // or
 // var recipes = new Object(); 
-// both are valid
+// both are valid, {} preferred
 
 function updateObjectWithKeyAndValue(obj, key, value) {
   return Object.assign({}, obj, { [key]: value });
